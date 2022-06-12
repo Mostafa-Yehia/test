@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh "echo step1"
                 sh "chmod +x *.sh"
-                sh "./test.sh"
+                sh "./jump.sh hi hi"
             }
         }
     }
